@@ -47,33 +47,33 @@ Each experimental run contains 37 stimuli. The fMRI sampling rate is TR = 2 sec,
 
 ## FAQs:
 
-#### **What makes BOLD5000 different from other large-scale fMRI datasets?**
+**What makes BOLD5000 different from other large-scale fMRI datasets?**
 
-    BOLD5000 contains images from the ImageNet, COCO, and SUN datasets, enabling flexible comparisons between neural responses and machine learning models trained on a diverse array of computer vision benchmarks.
+        BOLD5000 contains images from the ImageNet, COCO, and SUN datasets, enabling flexible comparisons between neural responses and machine learning models trained on a diverse array of computer vision benchmarks.
 
-BOLD5000 experimental stimuli are 10 sec apart; in theory, the neural responses to stimuli in BOLD5000 should be less affected by responses to neighboring trials than in more rapid event-related designs (e.g. the Natural Scenes Dataset, which has a 4 sec inter-stimulus interval).
+        BOLD5000 experimental stimuli are 10 sec apart; in theory, the neural responses to stimuli in BOLD5000 should be less affected by responses to neighboring trials than in more rapid event-related designs (e.g. the Natural Scenes Dataset, which has a 4 sec inter-stimulus interval).
 
-BOLD5000 has a substantial quantity of stimuli that overlap between subjects (4916 unique images). Extensive sampling of individuals in the study does not prevent cross-subject aggregation and comparison.
+        BOLD5000 has a substantial quantity of stimuli that overlap between subjects (4916 unique images). Extensive sampling of individuals in the study does not prevent cross-subject aggregation and comparison.
 
-#### **Can I use BOLD5000 and the [Natural Scenes Dataset](http://naturalscenesdataset.org/) together in my analyses?**
+**Can I use BOLD5000 and the [Natural Scenes Dataset](http://naturalscenesdataset.org/) together in my analyses?**
 
-Yes! There are several thousand images that overlap between the datasets; this was a purposeful aspect of their design. This overlap directly allows users to develop models/theories using one dataset, and to then use the other as a validation or test dataset.
+        Yes! There are several thousand images that overlap between the datasets; this was a purposeful aspect of their design. This overlap directly allows users to develop models/theories using one dataset, and to then use the other as a validation or test dataset.
 
-#### **How have people already used BOLD5000?**
+**How have people already used BOLD5000?**
 
-...to [infer the similarity of different task-derived neural representations](https://openreview.net/pdf?id=ryGCaBreIB)
+        ...to [infer the similarity of different task-derived neural representations](https://openreview.net/pdf?id=ryGCaBreIB)
 
-...to [study how local and global symmetry differentially influence neural responses to real-world scenes](https://jov.arvojournals.org/article.aspx?articleid=2771866)
+        ...to [study how local and global symmetry differentially influence neural responses to real-world scenes](https://jov.arvojournals.org/article.aspx?articleid=2771866)
 
-...to [show that discriminability and similarity, at different visual levels, predict image memorability](https://www.biorxiv.org/content/10.1101/834796v3.full.pdf)
+        ...to [show that discriminability and similarity, at different visual levels, predict image memorability](https://www.biorxiv.org/content/10.1101/834796v3.full.pdf)
 
-...to [assess the similarity of cortical object and scene representations through cross-validated voxel encoding models](https://jov.arvojournals.org/article.aspx?articleid=2750674)
+        ...to [assess the similarity of cortical object and scene representations through cross-validated voxel encoding models](https://jov.arvojournals.org/article.aspx?articleid=2750674)
 
-...among many other contexts and studies!
+        ...among many other contexts and studies!
 
-#### **Where can I access BOLD5000 v2.0 data?**
+**Where can I access BOLD5000 v2.0 data?**
 
-All files are available for download on Figshare at the following link. [add link]
+        All files are available for download on Figshare at the following link. [add link]
 
 **What are the differences between files available on OpenNeuro and on Figshare?**
 
