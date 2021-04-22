@@ -49,11 +49,11 @@ Each experimental run contains 37 stimuli. The fMRI sampling rate is TR = 2 sec,
 
 **What makes BOLD5000 different from other large-scale fMRI datasets?**
 
+    BOLD5000 contains images from the ImageNet, COCO, and SUN datasets, enabling flexible comparisons between neural responses and machine learning models trained on a diverse array of computer vision benchmarks.
+
 BOLD5000 experimental stimuli are 10 sec apart; in theory, the neural responses to stimuli in BOLD5000 should be less affected by responses to neighboring trials than in more rapid event-related designs (e.g. the Natural Scenes Dataset, which has a 4 sec inter-stimulus interval).
 
 BOLD5000 has a substantial quantity of stimuli that overlap between subjects (4916 unique images). Extensive sampling of individuals in the study does not prevent cross-subject aggregation and comparison.
-
-BOLD5000 contains images from the ImageNet, COCO, and SUN datasets, enabling flexible comparisons between neural responses and machine learning models trained on a diverse array of computer vision benchmarks.
 
 **Can I use BOLD5000 and the [Natural Scenes Dataset](http://naturalscenesdataset.org/) together in my analyses?**
 
