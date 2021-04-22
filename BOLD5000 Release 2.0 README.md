@@ -49,15 +49,15 @@ Each experimental run contains 37 stimuli. The fMRI sampling rate is TR = 2 sec,
 
 **What makes BOLD5000 different from other large-scale fMRI datasets?**
 
-        BOLD5000 contains images from the ImageNet, COCO, and SUN datasets, enabling flexible comparisons between neural responses and machine learning models         trained on a diverse array of computer vision benchmarks.
+BOLD5000 contains images from the ImageNet, COCO, and SUN datasets, enabling flexible comparisons between neural responses and machine learning models trained on a diverse array of computer vision benchmarks.
 
-        BOLD5000 experimental stimuli are 10 sec apart; in theory, the neural responses to stimuli in BOLD5000 should be less affected by responses to         neighboring trials than in more rapid event-related designs (e.g. the Natural Scenes Dataset, which has a 4 sec inter-stimulus interval).
+BOLD5000 experimental stimuli are 10 sec apart; in theory, the neural responses to stimuli in BOLD5000 should be less affected by responses to neighboring trials than in more rapid event-related designs (e.g. the Natural Scenes Dataset, which has a 4 sec inter-stimulus interval).
 
-        BOLD5000 has a substantial quantity of stimuli that overlap between subjects (4916 unique images). Extensive sampling of individuals in the study does         not prevent cross-subject aggregation and comparison.
+BOLD5000 has a substantial quantity of stimuli that overlap between subjects (4916 unique images). Extensive sampling of individuals in the study does not prevent cross-subject aggregation and comparison.
 
 **Can I use BOLD5000 and the [Natural Scenes Dataset](http://naturalscenesdataset.org/) together in my analyses?**
 
-        Yes! There are several thousand images that overlap between the datasets; this was a purposeful aspect of their design. This overlap directly allows         users to develop models/theories using one dataset, and to then use the other as a validation or test dataset.
+Yes! There are several thousand images that overlap between the datasets; this was a purposeful aspect of their design. This overlap directly allows users to develop models/theories using one dataset, and to then use the other as a validation or test dataset.
 
 **How have people already used BOLD5000?**
 
@@ -73,23 +73,23 @@ Each experimental run contains 37 stimuli. The fMRI sampling rate is TR = 2 sec,
 
 **Where can I access BOLD5000 v2.0 data?**
 
-        All files are available for download on Figshare at the following link. [add link]
+All files are available for download on Figshare at the following link. [add link]
 
 **What are the differences between files available on OpenNeuro and on Figshare?**
 
-        BOLD5000 v1.0 data is currently available in BIDS format on OpenNeuro [link]. Currently, v2.0 is available only on Figshare [link]. In coming months, we         are planning to release BOLD5000 v2.0 data in BIDS format on OpenNeuro. Sign up here [link] if you would like to be notified about future data releases.
+BOLD5000 v1.0 data is currently available in BIDS format on OpenNeuro [link]. Currently, v2.0 is available only on Figshare [link]. In coming months, we are planning to release BOLD5000 v2.0 data in BIDS format on OpenNeuro. Sign up here [link] if you would like to be notified about future data releases.
 
 **Where are the BOLD5000 stimulus images, and how can I download them?**
 
-        Stimulus images are available for direct download on the BOLD5000 website, at the following [link](https://bold5000.github.io/download.html).
+Stimulus images are available for direct download on the BOLD5000 website, at the following [link](https://bold5000.github.io/download.html).
 
 **When I load a data file using TYPE A-D betas from BOLD5000 v2.0, what do the units refer to?**
 
-        These values can be interpreted as percent signal change at a given voxel in response to a given experimental stimulus. Prior to saving, GLM betas were         converted to units of percent signal change by dividing amplitudes by the mean signal intensity observed at each voxel and multiplying by 100.
+These values can be interpreted as percent signal change at a given voxel in response to a given experimental stimulus. Prior to saving, GLM betas were converted to units of percent signal change by dividing amplitudes by the mean signal intensity observed at each voxel and multiplying by 100.
 
 **How should I account for drifts in mean/variance of BOLD responses from session to session?**
 
-        It is recommended that betas for each voxel be z-scored within each scan session prior to conducting further analysis.
+It is recommended that betas for each voxel be z-scored within each scan session prior to conducting further analysis.
 
 **Is the data format the same for all data versions in BOLD5000 v2.0?**
 
