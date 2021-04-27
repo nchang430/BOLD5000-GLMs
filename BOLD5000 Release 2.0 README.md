@@ -93,6 +93,8 @@ It is recommended that betas for each voxel be z-scored within each scan session
 
 **Is the data format the same for all data versions in BOLD5000 v2.0?**
 
+For the TYPEA-D betas, the format is identical between versions. Session betas are stored in the (X, Y, Z, img) volumetric format.
+
 **How do I associate different stimuli with their corresponding volumes of brain data?**
 
 **I care about repeated stimuli - how many are there, and how do I load them?**
