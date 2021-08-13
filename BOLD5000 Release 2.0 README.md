@@ -2,7 +2,7 @@
 
 BOLD5000 is a human functional MRI (fMRI) study that includes almost 5,000 distinct images depicting real-world scenes, incorporating images from the Scene UNderstanding (SUN), Common Objects in Context (COCO), and ImageNet datasets. The scale and diversity of these image datasets, combined with a slow event-related fMRI design, enables fine-grained exploration into the neural representation of a wide range of visual features, categories, and semantics. See our Nature Scientific Data paper: [https://www.nature.com/articles/s41597-019-0052-3](https://www.nature.com/articles/s41597-019-0052-3)
 
-**[BOLD5000 v2.0](https://kilthub.cmu.edu/account/home#/collections/5324846) is a complete re-release of functional data from BOLD5000, with optimized procedures for GLM estimation of brain-wide percent signal change in response to the experimental stimuli, yielding significant increases in the reliability of BOLD signal estimates compared to the initial data release.**
+**[BOLD5000 v2.0](https://figshare.com/s/bbaf45dca1b1b873ddfa) is a complete re-release of functional data from BOLD5000, with optimized procedures for GLM estimation of brain-wide percent signal change in response to the experimental stimuli, yielding significant increases in the reliability of BOLD signal estimates compared to the initial data release.**
 
 **Moving forward, we will continue to update BOLD5000 v2.0 with additional data versions, files for defining functional ROIs, and other relevant additions. If you would like to be notified, please sign up for our listserv [here](https://docs.google.com/forms/d/e/1FAIpQLScdxRc7eKOpZv5Yc6sfzWP5gi0egkDtNSPedVqpvtx_3yw4pg/viewform).**
 
@@ -94,12 +94,3 @@ It is recommended that betas for each voxel be z-scored within each scan session
 **Is the data format the same for all data versions in BOLD5000 v2.0?**
 
 For the TYPEA-D betas, the format is identical between versions. Session betas are stored in the (X, Y, Z, img) volumetric format.
-
-**How do I associate different stimuli with their corresponding volumes of brain data?**
-
-**I care about repeated stimuli - how many are there, and how do I load them?**
-
-**What’s the difference between the residual time-series data being released here, and the previously published data?**
-
-**Who should I contact if I have any issues?**
-
