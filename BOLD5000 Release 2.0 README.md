@@ -1,13 +1,17 @@
-# **What is BOLD5000 v2.0?**
-
+# **BOLD5000**
+** add image/link to paper **
 BOLD5000 is a human functional MRI (fMRI) study that includes almost 5,000 distinct images depicting real-world scenes, incorporating images from the Scene UNderstanding (SUN), Common Objects in Context (COCO), and ImageNet datasets. The scale and diversity of these image datasets, combined with a slow event-related fMRI design, enables fine-grained exploration into the neural representation of a wide range of visual features, categories, and semantics. See our Nature Scientific Data paper: [https://www.nature.com/articles/s41597-019-0052-3](https://www.nature.com/articles/s41597-019-0052-3)
 
 **[BOLD5000 v2.0](https://figshare.com/s/bbaf45dca1b1b873ddfa) is a complete re-release of functional data from BOLD5000, with optimized procedures for GLM estimation of brain-wide percent signal change in response to the experimental stimuli, yielding significant increases in the reliability of BOLD signal estimates compared to the initial data release.**
 
 **Moving forward, we will continue to update BOLD5000 v2.0 with additional data versions, files for defining functional ROIs, and other relevant additions. If you would like to be notified, please sign up for our listserv [here](https://docs.google.com/forms/d/e/1FAIpQLScdxRc7eKOpZv5Yc6sfzWP5gi0egkDtNSPedVqpvtx_3yw4pg/viewform).**
 
+**BOLD5000 v1 vs v2 **
+Table v1 vs v2 
+link to code folder that generates v1 and v2 
+**We highly recommend utilizing BOLD5000 v2.0 as the data quality is significantly better. **
 
-# **New methods for improved data quality:**
+# ** V2.0 methods for improved data quality:**
 
 Data included in BOLD5000 v2.0 integrate three techniques designed to improve the accuracy of trial-wise GLM beta estimates:
 
@@ -19,9 +23,9 @@ Data included in BOLD5000 v2.0 integrate three techniques designed to improve th
 
 See the “GLM Analysis” section of the newly-available [Natural Scenes Dataset preprint](https://www.biorxiv.org/content/10.1101/2021.02.22.432340v1) for further details on these methods. Code for these approaches will be released in the near future – **if you would like to be notified, please sign up for our listserv [here](https://docs.google.com/forms/d/e/1FAIpQLScdxRc7eKOpZv5Yc6sfzWP5gi0egkDtNSPedVqpvtx_3yw4pg/viewform).**
 
-## **Summary of new data versions:**
+## **Summary of V2.0 data versions:**
 
-The initial release of BOLD5000 v2.0 contains a total of five complete new versions of the functional data, four containing GLM beta estimates of voxel-wise percent signal change in response to experimental stimuli, and one containing whole-brain data preprocessed in an identical manner as the data from specific functional ROIs (e.g. PPA, OPA, LOC, RSC) that were included in the initial BOLD5000 v1.0 release (time-series of residuals from an SPM GLM used to regress out nuisance variables following initial fmriPREP preprocessing; see “fMRI Data Analysis" section of the [BOLD5000 paper](https://www.nature.com/articles/s41597-019-0052-3) for further details).
+**REDO**The initial release of BOLD5000 v2.0 contains a total of five complete new versions of the functional data, four containing GLM beta estimates of voxel-wise percent signal change in response to experimental stimuli, and one containing whole-brain data preprocessed in an identical manner as the data from specific functional ROIs (e.g. PPA, OPA, LOC, RSC) that were included in the initial BOLD5000 v1.0 release (time-series of residuals from an SPM GLM used to regress out nuisance variables following initial fmriPREP preprocessing; see “fMRI Data Analysis" section of the [BOLD5000 paper](https://www.nature.com/articles/s41597-019-0052-3) for further details).
 
 | Data version descriptor                  | GLM betas vs. residual time-series | HRF opt?       | GLMdenoise? | Ridge regression? | File save format             | Naming scheme                                           |
 |------------------------------------------|------------------------------------|----------------|-------------|-------------------|------------------------------|---------------------------------------------------------|
@@ -33,7 +37,7 @@ The initial release of BOLD5000 v2.0 contains a total of five complete new versi
 
 \*  SPM-RESIDUAL version refers to whole-brain data preprocessed in an identical manner to the ROI data described in the [BOLD5000 paper](https://www.nature.com/articles/s41597-019-0052-3), via fmriPrep and SPM.
 
-## Study design overview:
+## General Study Design Overview:
 
 | Subject | N sessions experimental data | N trials completed | Dimensionality of subject-space volumes |
 |---------|------------------------------|--------------------|-----------------------------------------|
