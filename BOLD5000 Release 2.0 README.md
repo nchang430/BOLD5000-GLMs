@@ -2,14 +2,18 @@
 ** add image/link to paper **
 BOLD5000 is a human functional MRI (fMRI) study that includes almost 5,000 distinct images depicting real-world scenes, incorporating images from the Scene UNderstanding (SUN), Common Objects in Context (COCO), and ImageNet datasets. The scale and diversity of these image datasets, combined with a slow event-related fMRI design, enables fine-grained exploration into the neural representation of a wide range of visual features, categories, and semantics. See our Nature Scientific Data paper: [https://www.nature.com/articles/s41597-019-0052-3](https://www.nature.com/articles/s41597-019-0052-3)
 
-**[BOLD5000 v2.0](https://figshare.com/s/bbaf45dca1b1b873ddfa) is a complete re-release of functional data from BOLD5000, with optimized procedures for GLM estimation of brain-wide percent signal change in response to the experimental stimuli, yielding significant increases in the reliability of BOLD signal estimates compared to the initial data release.**
+**Curent version: [BOLD5000 v2.0](https://figshare.com/s/bbaf45dca1b1b873ddfa) is a complete re-release of functional data from BOLD5000, with optimized procedures for GLM estimation of brain-wide percent signal change in response to the experimental stimuli, yielding significant increases in the reliability of BOLD signal estimates compared to the initial data release.**
 
 **Moving forward, we will continue to update BOLD5000 v2.0 with additional data versions, files for defining functional ROIs, and other relevant additions. If you would like to be notified, please sign up for our listserv [here](https://docs.google.com/forms/d/e/1FAIpQLScdxRc7eKOpZv5Yc6sfzWP5gi0egkDtNSPedVqpvtx_3yw4pg/viewform).**
 
+
+
 **BOLD5000 v1 vs v2 **
 Table v1 vs v2 
-link to code folder that generates v1 and v2 
+link to code folder that generates v1 and v2
+for more details on how to generate data from glm-single pre-processing scripts please refer to the readme under v2
 **We highly recommend utilizing BOLD5000 v2.0 as the data quality is significantly better. **
+
 
 # ** V2.0 methods for improved data quality:**
 
@@ -48,6 +52,7 @@ See the “GLM Analysis” section of the newly-available [Natural Scenes Datase
 
 Each experimental run contains 37 stimuli. The fMRI sampling rate is TR = 2 sec, and the resolution of each voxel is 2mm isotropic. The presentation order of the stimulus images is randomly and uniquely determined for each participant. Each image is presented for 1 sec followed by a 9 sec fixation cross. For each subject, some sessions contain 9 runs (333 stimuli each) and others contain 10 runs (370 stimuli each).
 
+## Citing BOLD5000 
 
 ## FAQs:
 
